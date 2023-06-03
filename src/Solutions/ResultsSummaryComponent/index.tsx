@@ -16,16 +16,18 @@ const ResultsSummaryComponent = () => {
         <div className='container'>
             <div id='results-summary'>
                 <header>
-                    <h1>Your Result</h1>
-                    <div className='result-info'>
-                        <div className='result-score'>
-                            <div>
-                                <strong>76</strong> <span>of 100</span>
+                    <div className="header-content-wrapper">
+                        <h1>Your Result</h1>
+                        <div className='result-info'>
+                            <div className='result-score'>
+                                <div>
+                                    <strong>76</strong> <span>of 100</span>
+                                </div>
                             </div>
-                        </div>
-                        <div className='result-description'>
-                            <p className='result-status'><b>Great</b></p>
-                            <p className='result-feedback'>You scored higher than 65% of the people who have taken these tests.</p>
+                            <div className='result-description'>
+                                <p className='result-status'><b>Great</b></p>
+                                <p className='result-feedback'>You scored higher than 65% of the people who have taken these tests.</p>
+                            </div>
                         </div>
                     </div>
                 </header>
