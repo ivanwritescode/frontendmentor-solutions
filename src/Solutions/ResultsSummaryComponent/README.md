@@ -12,3 +12,10 @@
 11. Better understanding of flexbox, justify-content, and align-items properties
 12. Difference between `<b>`, `<strong>`, and `<em>`
 13. How to choose breakpoints properly
+
+
+# References:
+- https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub
+- https://sass-lang.com/documentation/values/maps
+- https://www.youtube.com/watch?v=KqFAs5d3Yl8&t=97s
+- https://fedmentor.dev/posts/html-plan-product-preview/
