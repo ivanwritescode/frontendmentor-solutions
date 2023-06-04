@@ -1,7 +1,34 @@
-import data from './data.json'
 import './scss/styles.scss'
 
+import iconReaction from '../../assets/ResultsSummary/images/icon-reaction.svg'
+import iconMemory from '../../assets/ResultsSummary/images/icon-memory.svg';
+import iconVerbal from '../../assets/ResultsSummary/images/icon-verbal.svg';
+import iconVisual from '../../assets/ResultsSummary/images/icon-visual.svg';
+
 const ResultsSummaryComponent = () => {
+    const data = [
+        {
+            category: 'Reaction',
+            score: 80,
+            icon: iconReaction,
+        },
+        {
+            category: 'Memory',
+            score: 92,
+            icon: iconMemory,
+        },
+        {
+            category: 'Verbal',
+            score: 61,
+            icon: iconVerbal,
+        },
+        {
+            category: 'Visual',
+            score: 72,
+            icon: iconVisual,
+        },
+    ];
+
     return (
         <div className='container'>
             <div id='results-summary'>
