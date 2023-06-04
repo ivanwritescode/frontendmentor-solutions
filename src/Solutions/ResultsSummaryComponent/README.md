@@ -14,7 +14,7 @@
 13. How to choose breakpoints properly
 
 
-# References:
+# References
 - https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub
 - https://sass-lang.com/documentation/values/maps
 - https://www.youtube.com/watch?v=KqFAs5d3Yl8&t=97s
