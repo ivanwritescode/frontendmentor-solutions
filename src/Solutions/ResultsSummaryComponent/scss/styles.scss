@@ -69,6 +69,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             div {
                 width: 100px;
                 height: 100px;
+                aspect-ratio: 1/1;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
