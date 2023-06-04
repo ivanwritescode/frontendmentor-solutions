@@ -1,4 +1,10 @@
-@import url('./fonts.scss');
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-display: swap;
+    font-weight: 100 900;
+    src: url(../../../assets/ResultsSummary/fonts/HankenGrotesk-VariableFont_wght.ttf)
+        format('truetype')
+}
 
 /* gradient colors */
 $light-slate-blue: hsl(252, 100%, 67%);
@@ -25,7 +31,7 @@ $light-lavender: hsl(241, 100%, 89%);
 $dark-gray-blue: hsl(224, 30%, 27%);
 
 #results-summary {
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'HankenGrotesk', sans-serif;
 
     h1, h2, p, ul, li {
         margin: 0;
