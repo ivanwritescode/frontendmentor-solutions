@@ -39,21 +39,29 @@ $dark-gray-blue: hsl(224, 30%, 27%);
     header {
         border-radius: 0 0 30px 30px;
         background: $primary-gradient;
-        padding-top: 2em; 
-        padding-bottom: 2em;
+        padding-top: 2.5em; 
+        padding-bottom: 2.5em;
         padding-right: 2.5em;
         padding-left: 2.5em;
         margin-bottom: 1.5em;
         text-align: center;
 
         h1 {
+            font-size: 1.2em;
             margin-bottom: 1.5em;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .result-feedback,
+        .result-score span {
+            font-size: 1em;
         }
 
         h1,
-        .result-feedback {
-            font-size: 1em;
-            color: $pale-blue;
+        .result-feedback,
+        .result-score span {
+            color: $light-lavender;
         }
 
         .result-score,
@@ -64,18 +72,17 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         .result-score {
             display: flex;
             justify-content: center;
-            margin-bottom: 2em;
+            margin-bottom: 1.5em;
 
             div {
-                width: 100px;
-                height: 100px;
+                width: 130px;
+                height: 130px;
                 aspect-ratio: 1/1;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 padding: 20px;
                 border-radius: 50%;
-
                 background: $circle-gradient;
             }
 
@@ -85,13 +92,15 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
             
             strong {
-                font-size: 3em;
+                font-size: 4em;
+                margin-bottom: 5px;
             }
         }
 
         .result-status {
-            font-size: 1.2em;
-            margin-bottom: 1em;
+            font-size: 1.8em;
+            margin-bottom: .5em;
+            letter-spacing: 1px;
         }
     }
 
@@ -171,10 +180,32 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 }
 
 /* mobile */
-@media (max-width: 424px) {
-    section p.button-container {
-        margin-top: 1.3em !important;
-        margin-bottom: 1.3em !important;
+@media (max-width: 599px) {
+    #results-summary {
+        header {
+            padding-top: 1.5em;
+            padding-bottom: 2.5em;
+
+            h1 {
+                margin-bottom: 1.2em;
+            }
+
+            .result-score div {
+                width: 110px;
+                height: 110px;
+            }
+
+            .result-status {
+                font-size: 1.5em;
+            }
+        }
+
+        section {
+            p.button-container {
+                margin-top: 1.3em;
+                margin-bottom: 1.3em;
+            }
+        }
     }
 }
 
