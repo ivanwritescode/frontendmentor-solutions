@@ -10,5 +10,5 @@
 9. How to use custom data/data-* attributes to pinpoint specific elements
 10. How to structure code properly and proper use of sematic elements in HTML
 11. Better understanding of flexbox, justify-content, and align-items properties
-12. Difference between <b>, <strong>, and <em>
+12. Difference between `<b>`, `<strong>`, and `<em>`
 13. How to choose breakpoints properly
