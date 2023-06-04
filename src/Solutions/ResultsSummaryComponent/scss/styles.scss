@@ -18,6 +18,12 @@ $accents: (
   accent-3: (hsl(234, 85%, 45%), hsl(234, 85%, 45%, .1))
 );
 
+/* neutral */
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+
 #results-summary {
     font-family: 'CustomFont', sans-serif;
 
@@ -47,12 +53,12 @@ $accents: (
         h1,
         .result-feedback {
             font-size: 1em;
-            color: #ebf1ff;
+            color: $pale-blue;
         }
 
         .result-score,
         .result-status {
-            color: #ffffff;
+            color: $white;
         }
 
         .result-score {
@@ -66,7 +72,6 @@ $accents: (
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
-                background-color: #7857ff;
                 padding: 20px;
                 border-radius: 50%;
 
@@ -148,8 +153,8 @@ $accents: (
             button{
                 width: 100%;
                 padding: .8em 0 .8em 0;
-                background: hsl(224, 30%, 27%);
-                color: #ffffff;
+                background: $dark-gray-blue;
+                color: $white;
                 font-size: 1em;
                 border: 1px solid;
                 border-radius: 30px;
@@ -186,7 +191,7 @@ $accents: (
         align-items: center;
         width: 600px;
         border-radius: 25px;
-        box-shadow: 5px 5px 30px #d1e4ee;
+        box-shadow: 5px 5px 30px $light-lavender;
 
         header {
             align-self: stretch;
