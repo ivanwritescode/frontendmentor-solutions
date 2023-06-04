@@ -2,21 +2,21 @@
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "/frontendmentor-solutions/src/assets/ResultsSummary/images/icon-reaction.svg"
+    "icon": "/frontendmentor-solutions/assets/ResultsSummary/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "/frontendmentor-solutions/src/assets/ResultsSummary/images/icon-memory.svg"
+    "icon": "/frontendmentor-solution/assets/ResultsSummary/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "/frontendmentor-solutions/src/assets/ResultsSummary/images/icon-verbal.svg"
+    "icon": "/frontendmentor-solution/assets/ResultsSummary/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "/frontendmentor-solutions/src/assets/ResultsSummary/images/icon-visual.svg"
+    "icon": "/frontendmentor-solution/src/assets/ResultsSummary/images/icon-visual.svg"
   }
 ]
