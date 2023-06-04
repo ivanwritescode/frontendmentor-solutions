@@ -1,16 +1,6 @@
 import data from './data.json'
 import './scss/styles.scss'
 
-interface ISummaryItemColors {
-    [key: string]: string[];
-}
-const summaryItemColors:ISummaryItemColors = {
-    Reaction: [ 'rgb(255, 87, 87)', 'rgb(255, 87, 87, 0.1)' ],
-    Memory: [ 'rgb(255, 176, 31)', 'rgb(255, 176, 31, 0.1)' ],
-    Verbal: [ 'rgb(0, 189, 145)', 'rgb(0, 189, 145, 0.1)' ],
-    Visual: [ 'rgb(17, 37, 212)', 'rgb(17, 37, 212, 0.1)' ],
-} ;
-
 const ResultsSummaryComponent = () => {
     return (
         <div className='container'>
@@ -36,8 +26,8 @@ const ResultsSummaryComponent = () => {
                     <div className='summary-items'>
                         <ul>
                             { data.map((d, i) => 
-                                <li key={d.category} style={{ background: summaryItemColors[d.category][1] }} >
-                                    <span style={{ color: summaryItemColors[d.category][0] }}>
+                                <li key={d.category} data-item-type={`accent-${i}`}>
+                                    <span>
                                         <img src={d.icon} alt={`${d.category} icon`} />
                                         {d.category}
                                     </span>

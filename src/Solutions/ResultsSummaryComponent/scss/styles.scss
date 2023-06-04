@@ -1,5 +1,23 @@
 @import url('./fonts.scss');
 
+/* gradient colors */
+$light-slate-blue: hsl(252, 100%, 67%);
+$light-royal-blue: hsl(241, 81%, 54%);
+$violet-blue: hsla(256, 72%, 46%, 1);
+$persian-blue: hsla(241, 72%, 46%, 0);
+
+/* gradients */
+$primary-gradient: linear-gradient(to bottom, $light-slate-blue, $light-royal-blue);
+$circle-gradient: linear-gradient(to bottom, $violet-blue, $persian-blue);
+
+/* accents */
+$accents: (
+  accent-0: (hsl(0, 100%, 67%), hsl(0, 100%, 67%, .1)),
+  accent-1: (hsl(39, 100%, 56%), hsl(39, 100%, 56%, .1)),
+  accent-2: (hsl(166, 100%, 37%), hsl(166, 100%, 37%, .1)),
+  accent-3: (hsl(234, 85%, 45%), hsl(234, 85%, 45%, .1))
+);
+
 #results-summary {
     font-family: 'CustomFont', sans-serif;
 
@@ -14,7 +32,7 @@
 
     header {
         border-radius: 0 0 30px 30px;
-        background: linear-gradient(to bottom, #7857ff,#2e2be9);
+        background: $primary-gradient;
         padding-top: 2em; 
         padding-bottom: 2em;
         padding-right: 2.5em;
@@ -52,7 +70,7 @@
                 padding: 20px;
                 border-radius: 50%;
 
-                background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+                background: $circle-gradient;
             }
 
             strong,
@@ -106,6 +124,20 @@
                     font-style: normal;
                 }
             }
+
+            @each $accent, $colors in $accents {
+                $background: nth($colors, 2);
+                $color: nth($colors, 1);
+
+                li[data-item-type=#{$accent}] {
+                    background: $background;
+
+                    span {
+                    color: $color;
+                    }
+                }
+            }
+
         }
 
 
@@ -124,7 +156,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    background: linear-gradient(to bottom, #7857ff,#2e2be9);
+                    background: $primary-gradient;
                 }
             }
         }
