@@ -55,7 +55,7 @@ const ResultsSummaryComponent = () => {
                             { data.map((d, i) => 
                                 <li key={d.category} data-item-type={`accent-${i}`}>
                                     <span>
-                                        <img src={d.icon} alt={`${d.category} icon`} />
+                                        <img src={d.icon} alt="" />
                                         {d.category}
                                     </span>
                                     <div id={`summaryitem-${i}`}><em>{d.score}</em> / 100</div>
