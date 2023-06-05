@@ -49,7 +49,7 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
-1. Referencing fonts using @font-face directive on SCSS file. Also the best practices of importing/using fonts in the project (i.e. `font-display: swap` and `format('truetype')`).
+1. Referencing fonts using `@font-face` directive on SCSS file. Also the best practices of importing/using fonts in the project (i.e. `font-display: swap` and `format('truetype')`).
 ```scss
 @font-face {
     font-family: 'HankenGrotesk';
