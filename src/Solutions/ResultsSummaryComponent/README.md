@@ -103,7 +103,7 @@ $accents: (
 
 - In my future solutions, I want to use more SASS features to get comfortable with the capabilities SASS can bring to my development kit. I want to get to know more about directives, mixins, modules, and more!
 - Throughout the process of making this solution, the usage of custom CSS properties also came to my attention and want to get familiar with it as well.
-- I want to understand more about standar HTML practices such as accessibility, proper usage of sematic tags, aria properties, and proper structuring of my HTML documents to maximize accessibility and SEO.
+- I want to understand more about standard HTML practices such as accessibility, proper usage of sematic tags, aria properties, and proper structuring of my HTML documents to maximize accessibility and SEO.
 
 ### Useful resources
 
