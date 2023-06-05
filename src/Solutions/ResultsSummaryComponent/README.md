@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 #### Desktop
-<img src="screenshots/desktop-1440px" alt="Desktop Screenshot" width="600" />
+<img src="https://github.com/ivanwritescode/frontendmentor-solutions/blob/master/src/Solutions/ResultsSummaryComponent/screenshots/desktop-1440px.png" alt="Desktop Screenshot" width="600" />
 
 #### Mobile
-<img src="screenshots/mobile-375px" alt="Mobile Screenshot" width="300" />
+<img src="https://github.com/ivanwritescode/frontendmentor-solutions/blob/master/src/Solutions/ResultsSummaryComponent/screenshots/mobile-375px.png" alt="Mobile Screenshot" width="300" />
 
 ### Links
 
