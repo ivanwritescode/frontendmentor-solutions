@@ -38,6 +38,7 @@ Users should be able to:
 - Live Site URL: [Live Site](https://ivanwritescode.github.io/frontendmentor-solutions/)
 
 ## My process
+In this project, I've wanted to get back to basics and improve my HTML and CSS skills while I'm also learning React at the same time. I have used SASS to help organize my CSS code better and learned a lot about it in the process as well.
 
 ### Built with
 
