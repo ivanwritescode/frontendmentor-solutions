@@ -108,7 +108,7 @@ $accents: (
 ### Useful resources
 
 - [Planning HTML](https://fedmentor.dev/posts/html-plan-product-preview/) - This helped me understand HTML structure a little bit more. I really liked this pattern and will use it going forward.
-- [HTML Sectioning](https://css-tricks.com/how-to-section-your-html/) - This is an amazing article which helped me finally understand sectionling HTML elements. I would like to use this as a reference my future projects. 
+- [HTML Sectioning](https://css-tricks.com/how-to-section-your-html/) - This is an amazing article which helped me finally understand sectioning HTML elements. I would like to use this as a reference my future projects. 
 - [SASS Maps](https://sass-lang.com/documentation/values/maps) - This documentation page helped me understand SASS maps.
 
 ## Author
