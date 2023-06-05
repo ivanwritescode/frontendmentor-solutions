@@ -61,7 +61,7 @@ Users should be able to:
 ```
 2. Usage of variables on SCSS for colors and gradients
 3. Usage of maps
-4. How to use `@each` directive. I've used the directive to use each color item in my SCSS map to style each
+4. How to use `@each` directive. I have utilized the directive to apply the color values from my SCSS map in order to style each individual list item within the component.
 
 ```scss
 /* accents */
