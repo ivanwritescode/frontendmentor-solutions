@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: "/frontendmentor-solutions/",
-    element: <div>Hello! Some changes are underway.</div> 
+    element: <ResultsSummaryComponent /> 
   },
   {
     path: "/frontendmentor-solutions/ResultsSummaryComponent/",
