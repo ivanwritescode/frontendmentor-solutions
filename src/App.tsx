@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: <ResultsSummaryComponent /> 
   },
   {
-    path: "/frontendmentor-solutions/ResultsSummaryComponent/",
+    path: "/frontendmentor-solutions/1",
     element: <ResultsSummaryComponent />
   }
 ])
