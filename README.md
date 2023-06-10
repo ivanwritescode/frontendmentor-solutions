@@ -1,4 +1,4 @@
-[Click here](https://ivanwritescode.github.io/frontendmentor-solutions/) to visit the website.
+[Click here](https://ivanwritescode.github.io/results-summary-component/) to visit the website.
 
 ## Installation
 
