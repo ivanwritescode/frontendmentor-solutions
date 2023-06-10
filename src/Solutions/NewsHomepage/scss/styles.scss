@@ -1,8 +1,24 @@
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Inter-Regular';
     font-display: swap;
     font-weight: 400 700 800;
     src: url(../../../assets/NewsHomepage/fonts/static/Inter-Regular.ttf)
+        format('truetype')
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    font-display: swap;
+    font-weight: 400 700 800;
+    src: url(../../../assets/NewsHomepage/fonts/static/Inter-Bold.ttf)
+        format('truetype')
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    font-display: swap;
+    font-weight: 400 700 800;
+    src: url(../../../assets/NewsHomepage/fonts/static/Inter-ExtraBold.ttf)
         format('truetype')
 }
 
@@ -19,24 +35,38 @@ $very-dark-blue: hsl(240, 100%, 5%);
 $font-size-paragraph: 15px;
 
 body {
-    font-family: 'Inter';
-    margin-top: 5em !important;
+    font-family: 'Inter-Regular';
+    margin-top: 4em !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {
-    max-width: 80%;
+    max-width: 75%;
     margin: 0 auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-areas:
+        "s_header s_header s_header s_header"
+        "s_main s_main s_main s_newsaside"
+        "s_newsarticles s_newsarticles s_newsarticles s_newsarticles";
 }
 
 .site-header {
+    grid-area: s_header;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 
     .site-nav .nav-list {
         display: flex;
         align-items: center;
+        color: $dark-grayish-blue;
 
         .nav-list-item {
             margin-left: 2em;
@@ -46,9 +76,157 @@ body {
                 color: inherit;
 
                 &:hover {
-                    color: $soft-orage
+                    color: $soft-red
                 }
             }
+        }
+    }
+}
+
+.main-content {
+    grid-area: s_main;
+
+    .page-headline {
+        display: grid;
+        gap: 2em;
+        grid-template-areas:
+            "h_image h_image h_image h_image"
+            "h_text h_text h_content h_content";
+
+        .headline-image {
+            grid-area: h_image;
+            max-width: 100%;
+        }
+
+        .headline-text {
+            grid-area: h_text;
+            font-family: 'Inter-ExtraBold';
+            font-size: 3rem;
+        }
+
+        .headline-content {
+            grid-area: h_content;
+
+            p {
+                margin-bottom: 2em;
+                font-size: $font-size-paragraph;
+            }
+
+            .headline-cta {
+                background: $soft-red;
+                color: #fff;
+                text-decoration: none;
+                padding: .8em 2em;
+                display: inline-block;
+                text-transform:uppercase;
+                font-size: .7rem;
+                letter-spacing: .2rem;
+                line-height: 2;
+                vertical-align: middle;
+
+                &:hover {
+                    background: $very-dark-blue;
+                }
+            }
+        }
+    }
+}
+
+.news-aside {
+    grid-area: s_newsaside;
+    padding: 1.5em;
+    background: $very-dark-blue;
+    color: #fff;
+
+    .aside-header,
+    h3 {
+        font-family: 'Inter-Bold';
+
+        a:hover {
+            color: $soft-orage
+        }
+    }
+
+    .aside-header {
+        font-size: 2rem;
+        color: $soft-orage;
+    }
+
+    article {
+        padding-top: 2em;
+
+        &:not(:last-child) {
+            padding-bottom: 2em;
+            border-bottom: 1px solid $grayish-blue;
+        }
+    }
+
+    h3 {
+        margin-bottom: .5em;
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: $font-size-paragraph;
+        color: $grayish-blue 
+    }
+}
+
+.news_articles {
+    grid-area: s_newsarticles;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+
+    article {
+        display: flex;
+
+        img {
+            max-width: 25%;
+            margin-right: 1em;
+        }
+
+        .article-number {
+            display: block;
+            font-size: 1.5em;
+            font-family: 'Inter-Bold';
+            color: $grayish-blue
+        }
+
+        h3, .article-number {
+            margin-bottom: .5em;
+        }
+
+        h3 {
+            font-family: 'Inter-ExtraBold';
+            a:hover {
+                color: $soft-red;
+            }
+        }
+
+        p {
+            color: $dark-grayish-blue;
+            font-size: $font-size-paragraph;
+        }
+    }
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    font-size: .8rem;
+
+    a {
+        color: $dark-grayish-blue;
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 }
