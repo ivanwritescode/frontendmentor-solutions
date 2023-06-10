@@ -4,6 +4,10 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <div>Hello! Some changes are underway.</div> 
+  },
+  {
     path: "/frontendmentor-solutions/ResultsSummaryComponent",
     element: <ResultsSummaryComponent />
   }
