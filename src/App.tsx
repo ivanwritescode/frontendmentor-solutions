@@ -4,14 +4,17 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: "/frontendmentor-solutions/",
+    path: "/",
     element: <ResultsSummaryComponent /> 
   },
   {
-    path: "/frontendmentor-solutions/1",
+    path: "/1",
     element: <ResultsSummaryComponent />
   }
-])
+],
+{
+  basename: "/frontendmentor-solutions"
+})
 
 function App() {
 
