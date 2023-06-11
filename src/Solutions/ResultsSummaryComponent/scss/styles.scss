@@ -45,7 +45,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
     header {
         border-radius: 0 0 30px 30px;
         background: $primary-gradient;
-        padding-top: 2.5em; 
+        padding-top: 1.5em; 
         padding-bottom: 2.5em;
         padding-right: 2.5em;
         padding-left: 2.5em;
@@ -54,7 +54,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
         h1 {
             font-size: 1.2em;
-            margin-bottom: 1.5em;
+            margin-bottom: 1.2em;
             font-weight: 500;
             letter-spacing: 1px;
         }
@@ -81,8 +81,8 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             margin-bottom: 1.5em;
 
             div {
-                width: 130px;
-                height: 130px;
+                width: 110px;
+                height: 110px;
                 aspect-ratio: 1/1;
                 display: flex;
                 justify-content: center;
@@ -104,7 +104,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         }
 
         .result-status {
-            font-size: 1.8em;
+            font-size: 1.5em;
             margin-bottom: .5em;
             letter-spacing: 1px;
         }
@@ -164,8 +164,8 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
 
         .button-container {
-            margin-top: 2em;
-            margin-bottom: 2em;
+            margin-top: 1.3em;
+            margin-bottom: 1.3em;
 
             button{
                 width: 100%;
@@ -180,36 +180,6 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                 &:hover {
                     background: $primary-gradient;
                 }
-            }
-        }
-    }
-}
-
-/* mobile */
-@media (max-width: 599px) {
-    #results-summary {
-        header {
-            padding-top: 1.5em;
-            padding-bottom: 2.5em;
-
-            h1 {
-                margin-bottom: 1.2em;
-            }
-
-            .result-score div {
-                width: 110px;
-                height: 110px;
-            }
-
-            .result-status {
-                font-size: 1.5em;
-            }
-        }
-
-        section {
-            p.button-container {
-                margin-top: 1.3em;
-                margin-bottom: 1.3em;
             }
         }
     }
@@ -237,12 +207,26 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             border-radius: 25px ;
             margin: 0;
             width: 50%;
+            padding-top: 2.5rem;
 
             .header-content-wrapper {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+            }
+
+            .result-score div {
+                width: 130px;
+                height: 130px;
+            }
+
+            .result-status {
+                font-size: 1.8em;
+            }
+
+            h1 {
+                margin-bottom: 1.5em;
             }
         }
 
@@ -252,6 +236,11 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
             h2 {
                 margin-top: 1em;
+            }
+
+            p.button-container {
+                margin-top: 2em;
+                margin-bottom: 2em;
             }
         }
     }
