@@ -42,7 +42,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         list-style: none;
     }
 
-    header {
+    .result {
         border-radius: 0 0 30px 30px;
         background: $primary-gradient;
         padding-top: 1.5em; 
@@ -110,7 +110,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         }
     }
 
-    section {
+    .summary {
         padding: 0 1.5em 0 1.5em;
 
         h2 {
@@ -187,7 +187,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
 /* desktop */
 @media (min-width: 38rem) {
-    .container {
+    main {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -202,7 +202,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         border-radius: 25px;
         box-shadow: 5px 5px 30px $light-lavender;
 
-        header {
+        .result {
             align-self: stretch;
             border-radius: 25px ;
             margin: 0;
@@ -230,7 +230,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
         }
 
-        section {
+        .summary {
             width: 50%; 
             padding: 0 2em 0 2em;
 

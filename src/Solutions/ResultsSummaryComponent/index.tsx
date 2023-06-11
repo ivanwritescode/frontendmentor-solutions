@@ -30,9 +30,9 @@ const ResultsSummaryComponent = () => {
     ];
 
     return (
-        <div className='container'>
+        <main>
             <div className='results-summary'>
-                <header>
+                <section className='result'>
                     <div className="header-content-wrapper">
                         <h1>Your Result</h1>
                         <div className='result-info'>
@@ -47,8 +47,8 @@ const ResultsSummaryComponent = () => {
                             </div>
                         </div>
                     </div>
-                </header>
-                <section>
+                </section>
+                <section className='summary'>
                     <h2>Summary</h2>
                     <div className='summary-items'>
                         <ul>
@@ -69,7 +69,7 @@ const ResultsSummaryComponent = () => {
                     </p>
                 </section>
             </div>
-        </div>
+        </main>
     )
 }
 
