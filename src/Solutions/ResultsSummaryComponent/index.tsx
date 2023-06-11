@@ -1,4 +1,5 @@
 import './scss/styles.scss'
+import './scss/reset.scss'
 
 import iconReaction from '../../assets/ResultsSummary/images/icon-reaction.svg'
 import iconMemory from '../../assets/ResultsSummary/images/icon-memory.svg';

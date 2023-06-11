@@ -47,8 +47,8 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         background: $primary-gradient;
         padding-top: 1.5em; 
         padding-bottom: 2.5em;
-        padding-right: 2.5em;
-        padding-left: 2.5em;
+        padding-right: 2.8em;
+        padding-left: 2.8em;
         margin-bottom: 1.5em;
         text-align: center;
 
@@ -57,11 +57,13 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             margin-bottom: 1.2em;
             font-weight: 500;
             letter-spacing: 1px;
+            line-height: 1;
         }
 
         .result-feedback,
         .result-score span {
             font-size: 1rem;
+            line-height: 1.4;
         }
 
         h1,
@@ -78,11 +80,11 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         .result-score {
             display: flex;
             justify-content: center;
-            margin-bottom: 1.5em;
+            margin-bottom: 1em;
 
             div {
-                width: 110px;
-                height: 110px;
+                width: 150px;
+                height: 150px;
                 aspect-ratio: 1/1;
                 padding: 20px;
                 border-radius: 50%;
@@ -109,7 +111,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
         .result-status {
             font-size: 1.5rem;
-            margin-bottom: .5em;
+            margin-bottom: 0.5em;
             letter-spacing: 1px;
         }
     }
@@ -190,7 +192,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 }
 
 /* desktop */
-@media (min-width: 38rem) {
+@media (min-width: 42rem) {
     main {
         display: flex;
         align-items: center;
@@ -202,7 +204,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 600px;
+        width: 620px;
         border-radius: 25px;
         box-shadow: 5px 5px 30px $light-lavender;
 
@@ -221,8 +223,8 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
 
             .result-score div {
-                width: 130px;
-                height: 130px;
+                width: 170px;
+                height: 170px;
             }
 
             .result-status {
@@ -230,7 +232,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
 
             h1 {
-                margin-bottom: 1.5em;
+                margin-bottom: 1.8em;
             }
         }
 
