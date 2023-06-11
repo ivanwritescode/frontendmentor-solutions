@@ -33,7 +33,7 @@ const ResultsSummaryComponent = () => {
         <main>
             <div className='results-summary'>
                 <section className='result'>
-                    <div className="header-content-wrapper">
+                    <div className="result-content-wrapper">
                         <h1>Your Result</h1>
                         <div className='result-info'>
                             <div className='result-score'>
