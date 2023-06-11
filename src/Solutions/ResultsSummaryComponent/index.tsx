@@ -38,7 +38,9 @@ const ResultsSummaryComponent = () => {
                         <div className='result-info'>
                             <div className='result-score'>
                                 <div>
-                                    <strong>76</strong> <span>of 100</span>
+                                    <p>
+                                        <strong>76</strong> <span>of 100</span>
+                                    </p>
                                 </div>
                             </div>
                             <div className='result-description'>
@@ -54,11 +56,11 @@ const ResultsSummaryComponent = () => {
                         <ul>
                             { data.map((d, i) => 
                                 <li key={d.category} data-item-type={`accent-${i}`}>
-                                    <span>
+                                    <div className='flex-group'>
                                         <img src={d.icon} alt="" />
-                                        {d.category}
-                                    </span>
-                                    <div id={`summaryitem-${i}`}><em>{d.score}</em> / 100</div>
+                                        <h3 className='summary-item-title'>{d.category}</h3>
+                                    </div>
+                                    <p id={`summaryitem-${i}-score`}><em>{d.score}</em> / 100</p>
                                 </li>
                             ) }
                         </ul>

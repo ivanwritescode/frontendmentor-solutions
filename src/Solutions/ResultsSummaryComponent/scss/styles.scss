@@ -33,7 +33,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 .results-summary {
     font-family: 'HankenGrotesk', sans-serif;
 
-    h1, h2, p, ul, li {
+    h1, h2, h3, p, ul, li {
         margin: 0;
         padding: 0;
     }
@@ -84,12 +84,16 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                 width: 110px;
                 height: 110px;
                 aspect-ratio: 1/1;
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
                 padding: 20px;
                 border-radius: 50%;
                 background: $circle-gradient;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
             }
 
             strong,
@@ -131,14 +135,17 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                 justify-content: space-between;
                 align-items: center;
 
-                span {
+                .flex-group {
                     display: flex; 
                     align-items: center;
                     font-weight: 700;
+                    flex-wrap: wrap;
+                    gap: 0.5rem;
 
-                    img {
-                        margin-right: 10px;
-                    }
+                }
+
+                .summary-item-title {
+                    font-size: 1rem;
                 }
 
                 em {
@@ -154,8 +161,8 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                 li[data-item-type=#{$accent}] {
                     background: $background;
 
-                    span {
-                    color: $color;
+                    .summary-item-title {
+                        color: $color;
                     }
                 }
             }
