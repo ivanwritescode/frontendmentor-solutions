@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Code](https://github.com/ivanwritescode/frontendmentor-solutions/tree/master/src/Solutions/ResultsSummaryComponent)
+- Solution URL: [Solution Code](https://github.com/ivanwritescode/results-summary-component)
 - Live Site URL: [Live Site](https://ivanwritescode.github.io/results-summary-component/)
 
 ## My process
