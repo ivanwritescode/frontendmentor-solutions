@@ -53,7 +53,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         text-align: center;
 
         h1 {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             margin-bottom: 1.2em;
             font-weight: 500;
             letter-spacing: 1px;
@@ -61,7 +61,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 
         .result-feedback,
         .result-score span {
-            font-size: 1em;
+            font-size: 1rem;
         }
 
         h1,
@@ -102,13 +102,13 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
             
             strong {
-                font-size: 4em;
+                font-size: 4rem;
                 margin-bottom: 5px;
             }
         }
 
         .result-status {
-            font-size: 1.5em;
+            font-size: 1.5rem;
             margin-bottom: .5em;
             letter-spacing: 1px;
         }
@@ -118,7 +118,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         padding: 0 1.5em 0 1.5em;
 
         h2 {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             margin-bottom: 1em;
         }
 
@@ -176,7 +176,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             padding: .8em 0 .8em 0;
             background: $dark-gray-blue;
             color: $white;
-            font-size: 1em;
+            font-size: 1rem;
             border: 1px solid;
             border-radius: 30px;
             cursor: pointer;
@@ -226,7 +226,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
             }
 
             .result-status {
-                font-size: 1.8em;
+                font-size: 1.8rem;
             }
 
             h1 {
