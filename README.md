@@ -100,6 +100,17 @@ $accents: (
 11. Better understanding of flexbox, justify-content, and align-items properties
 12. Difference between `<b>`, `<strong>`, and `<em>`
 13. How to choose breakpoints properly.
+14. How to not add unnecessary media quries for mobile if your approach is already mobile-first.
+15. To not style on IDs or use complex CSS selectors.
+16. Media queries should always be defined in rem or em.
+17. To know the difference between using `<main>` and `<header>` tags.
+18. To never leave text in a div/span alone and to always use meaningful elements like paragraph or heading tags.
+19. That putting `<button>` inside a paragraph tag is an invalid HTML.
+20. The dangers of using `em` on font sizes.
+21.  To makes sure to always include moder CSS reset at the very start of the styles so that the styling is consistent accross browsers.
+22. That it's more performant to load fonts in the HTML head than rely on CSS import.
+23. To always make sure to use `role="list"` in ul and `role="listitem"` in each li when list style is removed in CSS.
+24. To always consider adding a little defensive styling such as `flex-wrap: wrap` to make sure items like text wraps properly on small screen devices.
 
 ### Continued development
 
