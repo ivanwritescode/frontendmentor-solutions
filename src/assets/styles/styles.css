@@ -186,7 +186,9 @@
     font-size: 1.8rem;
   }
   .results-summary .result h1 {
-    margin-bottom: 1.8em;
+    font-size: 1.3rem;
+    margin-bottom: 1.4em;
+    font-weight: 700;
   }
   .results-summary .summary {
     width: 50%;
