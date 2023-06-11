@@ -21,6 +21,7 @@ $white: hsl(0, 0%, 100%);
 $pale-blue: hsl(221, 100%, 96%);
 $light-lavender: hsl(241, 100%, 89%);
 $dark-gray-blue: hsl(224, 30%, 27%);
+$dark-gray-blue2: hsl(224, 30%, 27%, 0.5);
 
 .results-summary {
     h1, h2, h3, p, ul, li {
@@ -141,9 +142,15 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                     font-size: 1rem;
                 }
 
-                em {
+                p {
+                    color: $dark-gray-blue2;
                     font-weight: 700;
-                    font-style: normal;
+
+
+                    em {
+                        font-style: normal;
+                        color: $dark-gray-blue;
+                    }
                 }
             }
 

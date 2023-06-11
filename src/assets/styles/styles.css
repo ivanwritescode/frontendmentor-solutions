@@ -101,9 +101,13 @@
 .results-summary .summary .summary-items li .summary-item-title {
   font-size: 1rem;
 }
-.results-summary .summary .summary-items li em {
+.results-summary .summary .summary-items li p {
+  color: hsla(224, 30%, 27%, 0.5);
   font-weight: 700;
+}
+.results-summary .summary .summary-items li p em {
   font-style: normal;
+  color: hsl(224, 30%, 27%);
 }
 .results-summary .summary .summary-items li[data-item-type=accent-0] {
   background: hsla(0, 100%, 67%, 0.1);
