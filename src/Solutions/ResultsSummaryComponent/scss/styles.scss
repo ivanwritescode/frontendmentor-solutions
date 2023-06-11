@@ -186,7 +186,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
 }
 
 /* desktop */
-@media (min-width: 600px) {
+@media (min-width: 38rem) {
     .container {
         display: flex;
         align-items: center;
