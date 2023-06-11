@@ -89,6 +89,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .results-summary .summary .summary-items li .flex-group {
   display: flex;

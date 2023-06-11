@@ -126,6 +126,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                flex-wrap: wrap;
 
                 .flex-group {
                     display: flex; 
