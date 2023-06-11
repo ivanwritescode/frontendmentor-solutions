@@ -1,5 +1,5 @@
 import './App.css'
-import ResultsSummaryComponent from './Solutions/ResultsSummaryComponent'
+import ResultsSummaryComponent from './ResultsSummaryComponent'
 
 function App() {
 
