@@ -1,10 +1,10 @@
-import './scss/styles.scss'
-import './scss/reset.scss'
+// import './scss/styles.scss'
+// import './scss/reset.scss'
 
-import iconReaction from '../../assets/ResultsSummary/images/icon-reaction.svg'
-import iconMemory from '../../assets/ResultsSummary/images/icon-memory.svg';
-import iconVerbal from '../../assets/ResultsSummary/images/icon-verbal.svg';
-import iconVisual from '../../assets/ResultsSummary/images/icon-visual.svg';
+import iconReaction from '../../assets/images/icon-reaction.svg'
+import iconMemory from '../../assets/images/icon-memory.svg';
+import iconVerbal from '../../assets/images/icon-verbal.svg';
+import iconVisual from '../../assets/images/icon-visual.svg';
 
 const ResultsSummaryComponent = () => {
     const data = [
