@@ -51,9 +51,9 @@ const ResultsSummaryComponent = () => {
                 <section className='summary'>
                     <h2>Summary</h2>
                     <div className='summary-items'>
-                        <ul>
+                        <ul role="list">
                             { data.map((d, i) => 
-                                <li key={d.category} data-item-type={`accent-${i}`}>
+                                <li key={d.category} data-item-type={`accent-${i}`} role="listitem">
                                     <div className='flex-group'>
                                         <img src={d.icon} alt="" />
                                         <h3 className='summary-item-title'>{d.category}</h3>
