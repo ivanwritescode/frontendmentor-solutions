@@ -65,10 +65,7 @@ const ResultsSummaryComponent = () => {
                             ) }
                         </ul>
                     </div>
-
-                    <p className='button-container'>
-                        <button>Continue</button>
-                    </p>
+                    <button className="button">Continue</button>
                 </section>
             </div>
         </main>
