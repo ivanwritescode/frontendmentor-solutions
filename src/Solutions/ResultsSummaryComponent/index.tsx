@@ -31,7 +31,7 @@ const ResultsSummaryComponent = () => {
 
     return (
         <div className='container'>
-            <div id='results-summary'>
+            <div className='results-summary'>
                 <header>
                     <div className="header-content-wrapper">
                         <h1>Your Result</h1>

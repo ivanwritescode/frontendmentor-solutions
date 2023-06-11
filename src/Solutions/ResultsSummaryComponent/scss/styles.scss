@@ -30,7 +30,7 @@ $pale-blue: hsl(221, 100%, 96%);
 $light-lavender: hsl(241, 100%, 89%);
 $dark-gray-blue: hsl(224, 30%, 27%);
 
-#results-summary {
+.results-summary {
     font-family: 'HankenGrotesk', sans-serif;
 
     h1, h2, p, ul, li {
@@ -194,7 +194,7 @@ $dark-gray-blue: hsl(224, 30%, 27%);
         height: 100vh;
     }
 
-    #results-summary {
+    .results-summary {
         display: flex;
         justify-content: center;
         align-items: center;
