@@ -78,6 +78,7 @@
 .results-summary .summary h2 {
   font-size: 1.2rem;
   margin-bottom: 1em;
+  color: hsl(224, 30%, 27%);
 }
 .results-summary .summary .summary-items ul li:nth-child(n+2) {
   margin-top: 1em;
