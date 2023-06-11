@@ -35,7 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Code](https://github.com/ivanwritescode/results-summary-component)
+- GitHub URL: [Code URL](https://github.com/ivanwritescode/results-summary-component)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-design-using-sass-zhVByyH5Lx)
 - Live Site URL: [Live Site](https://ivanwritescode.github.io/results-summary-component/)
 
 ## My process
